@@ -1,12 +1,2 @@
-- name: This is my fist playbook
-  host: all
-  tasks:
-      - name: Print hello from play1
-        ansible.builtin.debug:
-          msg: Hai from task 1.
 
-      - name: Print hello from play2
-        ansible.builtin.debug:
-          msg: Hai from task 2.
-  
   
